@@ -1,0 +1,270 @@
+ minispy
+
+ Timestamp is 5b012a99 (Sun May 20 15:58:17 2018)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000dc2H .text$mn                CODE
+ 0001:00000dc2 000000a6H .text$s                 CODE
+ 0002:00000000 000000b8H .idata$5                DATA
+ 0002:000000b8 00000008H .00cfg                  DATA
+ 0002:000000c0 00000120H .rdata                  DATA
+ 0002:000001e0 00000008H .rdata$sxdata           DATA
+ 0002:000001e8 00000220H .rdata$zzzdbg           DATA
+ 0002:00000408 00000064H .xdata$x                DATA
+ 0003:00000000 00000020H .data                   DATA
+ 0003:00000020 000004b8H .bss                    DATA
+ 0004:00000000 00000586H PAGE                    CODE
+ 0004:00000586 00000220H PAGE$s                  CODE
+ 0005:00000000 00000296H INIT                    CODE
+ 0005:00000296 0000009eH INIT$s                  CODE
+ 0005:00000334 0000003cH .idata$2                CODE
+ 0005:00000370 00000014H .idata$3                CODE
+ 0005:00000384 000000b8H .idata$4                CODE
+ 0005:0000043c 00000414H .idata$6                CODE
+ 0006:00000000 00000398H INIT                    DATA
+ 0007:00000000 000000b0H .rsrc$01                DATA
+ 0007:000000b0 000003a8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000002       ___safe_se_handler_count   00000002     <absolute>
+ 0001:00000000       _SpyDeleteTxfContext@8     00401000 f   minispy.obj
+ 0001:00000004       _SpyEnlistInTransaction@4  00401004 f   minispy.obj
+ 0001:0000013a       _SpyExceptionFilter@8      0040113a f   minispy.obj
+ 0001:00000160       _SpyKtmNotificationCallback@12 00401160 f   minispy.obj
+ 0001:00000188       _SpyPostOperationCallback@16 00401188 f   minispy.obj
+ 0001:0000023e       _SpyPreOperationCallback@12 0040123e f   minispy.obj
+ 0001:00000440       _ExAllocateFromNPagedLookasideList@4 00401440 f i mspyLib.obj
+ 0001:0000046e       _ExFreeToNPagedLookasideList@8 0040146e f i mspyLib.obj
+ 0001:0000049e       _SpyAllocateBuffer@4       0040149e f   mspyLib.obj
+ 0001:000004ea       _SpyEmptyOutputBufferList@0 004014ea f   mspyLib.obj
+ 0001:0000055e       _SpyFreeRecord@4           0040155e f   mspyLib.obj
+ 0001:0000058a       _SpyGetLog@12              0040158a f   mspyLib.obj
+ 0001:00000722       _SpyLog@4                  00401722 f   mspyLib.obj
+ 0001:00000768       _SpyLogPostOperationData@8 00401768 f   mspyLib.obj
+ 0001:0000078c       _SpyLogPreOperationData@12 0040178c f   mspyLib.obj
+ 0001:0000084c       _SpyLogTransactionNotify@12 0040184c f   mspyLib.obj
+ 0001:000008bc       _SpyNewRecord@0            004018bc f   mspyLib.obj
+ 0001:0000091e       _SpySetRecordNameAndEcpData@12 0040191e f   mspyLib.obj
+ 0001:00000992       _TxNotificationToMinorCode@4 00401992 f   mspyLib.obj
+ 0001:000009ae       @__security_check_cookie@4 004019ae f   BufferOverflowFastFailK:secchk.obj
+ 0001:000009be       ___report_gsfailure        004019be f   BufferOverflowFastFailK:gs_report.obj
+ 0001:000009cc       __snwprintf                004019cc f   ntoskrnl:ntoskrnl.exe
+ 0001:000009d4       __SEH_prolog4              004019d4 f   ntoskrnl:sehprolg4.obj
+ 0001:00000a19       __SEH_epilog4              00401a19 f   ntoskrnl:sehprolg4.obj
+ 0001:00000a70       __except_handler4          00401a70 f   ntoskrnl:chandler4.obj
+ 0001:00000bb1       _memcpy                    00401bb1 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000bb7       _memset                    00401bb7 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000bc0       __local_unwind4            00401bc0 f   ntoskrnl:exsup4.obj
+ 0001:00000c98       __seh_longjmp_unwind4@4    00401c98 f   ntoskrnl:exsup4.obj
+ 0001:00000cb4       @_EH4_CallFilterFunc@8     00401cb4 f   ntoskrnl:exsup4.obj
+ 0001:00000ccc       @_EH4_TransferToHandler@8  00401ccc f   ntoskrnl:exsup4.obj
+ 0001:00000ce8       @_EH4_GlobalUnwind@4       00401ce8 f   ntoskrnl:exsup4.obj
+ 0001:00000d04       @_EH4_LocalUnwind@16       00401d04 f   ntoskrnl:exsup4.obj
+ 0001:00000d1c       __NLG_Notify1              00401d1c f   ntoskrnl:_nlgsupp.obj
+ 0001:00000d25       __NLG_Notify               00401d25 f   ntoskrnl:_nlgsupp.obj
+ 0001:00000d3c       __NLG_Dispatch2            00401d3c     ntoskrnl:_nlgsupp.obj
+ 0001:00000d3c       __NLG_Dispatch             00401d3c     ntoskrnl:_nlgsupp.obj
+ 0001:00000d44       __NLG_Call                 00401d44 f   ntoskrnl:_nlgsupp.obj
+ 0001:00000d46       __NLG_Return2              00401d46     ntoskrnl:_nlgsupp.obj
+ 0001:00000d47       _RtlUnwind@16              00401d47 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000d4d       _FltRegisterFilter@12      00401d4d f   fltMgr:FLTMGR.SYS
+ 0001:00000d53       _FltUnregisterFilter@4     00401d53 f   fltMgr:FLTMGR.SYS
+ 0001:00000d59       _FltStartFiltering@4       00401d59 f   fltMgr:FLTMGR.SYS
+ 0001:00000d5f       _FltGetRoutineAddress@4    00401d5f f   fltMgr:FLTMGR.SYS
+ 0001:00000d65       _FltGetFileNameInformation@12 00401d65 f   fltMgr:FLTMGR.SYS
+ 0001:00000d6b       _FltReleaseFileNameInformation@4 00401d6b f   fltMgr:FLTMGR.SYS
+ 0001:00000d71       _FltParseFileNameInformation@4 00401d71 f   fltMgr:FLTMGR.SYS
+ 0001:00000d77       _FltAllocateContext@20     00401d77 f   fltMgr:FLTMGR.SYS
+ 0001:00000d7d       _FltDeleteContext@4        00401d7d f   fltMgr:FLTMGR.SYS
+ 0001:00000d83       _FltReleaseContext@4       00401d83 f   fltMgr:FLTMGR.SYS
+ 0001:00000d89       _FltCreateCommunicationPort@32 00401d89 f   fltMgr:FLTMGR.SYS
+ 0001:00000d8f       _FltCloseCommunicationPort@4 00401d8f f   fltMgr:FLTMGR.SYS
+ 0001:00000d95       _FltCloseClientPort@8      00401d95 f   fltMgr:FLTMGR.SYS
+ 0001:00000d9b       _FltBuildDefaultSecurityDescriptor@8 00401d9b f   fltMgr:FLTMGR.SYS
+ 0001:00000da1       _FltFreeSecurityDescriptor@4 00401da1 f   fltMgr:FLTMGR.SYS
+ 0001:00000da7       _FltGetDeviceObject@8      00401da7 f   fltMgr:FLTMGR.SYS
+ 0001:00000dad       _FltGetEcpListFromCallbackData@12 00401dad f   fltMgr:FLTMGR.SYS
+ 0001:00000db3       _FltGetNextExtraCreateParameter@24 00401db3 f   fltMgr:FLTMGR.SYS
+ 0001:00000db9       _FltIsEcpFromUserMode@8    00401db9 f   fltMgr:FLTMGR.SYS
+ 0001:00000dc0       @_guard_check_icall_nop@4  00401dc0 f i BufferOverflowFastFailK:guard_support.obj
+ 0001:00000dc2       ??_C@_1BG@DLLGGIDJ@?$AA?$DM?$AA?$CF?$AA0?$AA8?$AAx?$AA?$DO?$AA?5?$AA?$CF?$AAw?$AAZ?$AA?$AA@FNODOBFM@ 00401dc2     minispy.obj
+ 0001:00000dd8       ??_C@_1GE@GOOEDKNI@?$AA?$DM?$AAN?$AAO?$AA?5?$AAN?$AAA?$AAM?$AAE?$AA?3?$AA?5?$AAN?$AAo?$AAr?$AAm?$AAa?$AAl?$AAi?$AAz?$AAe?$AAS?$AAt?$AAa?$AAt?$AAu?$AAs?$AA?$DN?$AA?$CF?$AA0?$AA8?$AAx?$AA?5?$AAO@FNODOBFM@ 00401dd8     minispy.obj
+ 0001:00000e3c       ??_C@_1BE@ECKFOCEH@?$AA?$DM?$AAN?$AAO?$AA?5?$AAN?$AAA?$AAM?$AAE?$AA?$DO?$AA?$AA@FNODOBFM@ 00401e3c     minispy.obj
+ 0001:00000e50       ??_C@_1BA@GLJAAEHE@?$AA?$CF?$AAw?$AAZ?$AA?5?$AA?$CF?$AAw?$AAZ?$AA?$AA@FNODOBFM@ 00401e50     mspyLib.obj
+ 0001:00000e60       ??_C@_17JJNMJOBL@?$AA?$CF?$AAw?$AAZ?$AA?$AA@FNODOBFM@ 00401e60     mspyLib.obj
+ 0002:00000000       __imp__FltReleaseContext@4 00402000     fltMgr:FLTMGR.SYS
+ 0002:00000004       __imp__FltIsEcpFromUserMode@8 00402004     fltMgr:FLTMGR.SYS
+ 0002:00000008       __imp__FltGetNextExtraCreateParameter@24 00402008     fltMgr:FLTMGR.SYS
+ 0002:0000000c       __imp__FltGetEcpListFromCallbackData@12 0040200c     fltMgr:FLTMGR.SYS
+ 0002:00000010       __imp__FltGetDeviceObject@8 00402010     fltMgr:FLTMGR.SYS
+ 0002:00000014       __imp__FltFreeSecurityDescriptor@4 00402014     fltMgr:FLTMGR.SYS
+ 0002:00000018       __imp__FltBuildDefaultSecurityDescriptor@8 00402018     fltMgr:FLTMGR.SYS
+ 0002:0000001c       __imp__FltCloseClientPort@8 0040201c     fltMgr:FLTMGR.SYS
+ 0002:00000020       __imp__FltCloseCommunicationPort@4 00402020     fltMgr:FLTMGR.SYS
+ 0002:00000024       __imp__FltCreateCommunicationPort@32 00402024     fltMgr:FLTMGR.SYS
+ 0002:00000028       __imp__FltRegisterFilter@12 00402028     fltMgr:FLTMGR.SYS
+ 0002:0000002c       __imp__FltDeleteContext@4  0040202c     fltMgr:FLTMGR.SYS
+ 0002:00000030       __imp__FltAllocateContext@20 00402030     fltMgr:FLTMGR.SYS
+ 0002:00000034       __imp__FltParseFileNameInformation@4 00402034     fltMgr:FLTMGR.SYS
+ 0002:00000038       __imp__FltReleaseFileNameInformation@4 00402038     fltMgr:FLTMGR.SYS
+ 0002:0000003c       __imp__FltGetFileNameInformation@12 0040203c     fltMgr:FLTMGR.SYS
+ 0002:00000040       __imp__FltGetRoutineAddress@4 00402040     fltMgr:FLTMGR.SYS
+ 0002:00000044       __imp__FltStartFiltering@4 00402044     fltMgr:FLTMGR.SYS
+ 0002:00000048       __imp__FltUnregisterFilter@4 00402048     fltMgr:FLTMGR.SYS
+ 0002:0000004c       \177FLTMGR_NULL_THUNK_DATA 0040204c     fltMgr:FLTMGR.SYS
+ 0002:00000050       __imp_@KfReleaseSpinLock@8 00402050     hal:HAL.dll
+ 0002:00000054       __imp_@KfAcquireSpinLock@4 00402054     hal:HAL.dll
+ 0002:00000058       \177HAL_NULL_THUNK_DATA    00402058     hal:HAL.dll
+ 0002:0000005c       __imp__memset              0040205c     ntoskrnl:ntoskrnl.exe
+ 0002:00000060       __imp__KeInitializeSpinLock@4 00402060     ntoskrnl:ntoskrnl.exe
+ 0002:00000064       __imp__RtlUnwind@16        00402064     ntoskrnl:ntoskrnl.exe
+ 0002:00000068       __imp__RtlIpv6AddressToStringExA@20 00402068     ntoskrnl:ntoskrnl.exe
+ 0002:0000006c       __imp__RtlIpv4AddressToStringExA@16 0040206c     ntoskrnl:ntoskrnl.exe
+ 0002:00000070       __imp__PsGetCurrentThreadId@0 00402070     ntoskrnl:ntoskrnl.exe
+ 0002:00000074       __imp__PsGetCurrentProcessId@0 00402074     ntoskrnl:ntoskrnl.exe
+ 0002:00000078       __imp__ZwQueryValueKey@24  00402078     ntoskrnl:ntoskrnl.exe
+ 0002:0000007c       __imp__ZwOpenKey@12        0040207c     ntoskrnl:ntoskrnl.exe
+ 0002:00000080       __imp__ZwClose@4           00402080     ntoskrnl:ntoskrnl.exe
+ 0002:00000084       __imp_@ObfDereferenceObject@4 00402084     ntoskrnl:ntoskrnl.exe
+ 0002:00000088       __imp_@ExInterlockedPushEntrySList@12 00402088     ntoskrnl:ntoskrnl.exe
+ 0002:0000008c       __imp_@ExInterlockedPopEntrySList@8 0040208c     ntoskrnl:ntoskrnl.exe
+ 0002:00000090       __imp__KeQuerySystemTime@4 00402090     ntoskrnl:ntoskrnl.exe
+ 0002:00000094       __imp__RtlStringFromGUID@8 00402094     ntoskrnl:ntoskrnl.exe
+ 0002:00000098       __imp__RtlFreeUnicodeString@4 00402098     ntoskrnl:ntoskrnl.exe
+ 0002:0000009c       __imp__memcpy              0040209c     ntoskrnl:ntoskrnl.exe
+ 0002:000000a0       __imp___snwprintf          004020a0     ntoskrnl:ntoskrnl.exe
+ 0002:000000a4       __imp__FsRtlIsNtstatusExpected@4 004020a4     ntoskrnl:ntoskrnl.exe
+ 0002:000000a8       __imp__ExDeleteNPagedLookasideList@4 004020a8     ntoskrnl:ntoskrnl.exe
+ 0002:000000ac       __imp__ExInitializeNPagedLookasideList@28 004020ac     ntoskrnl:ntoskrnl.exe
+ 0002:000000b0       __imp__RtlInitUnicodeString@8 004020b0     ntoskrnl:ntoskrnl.exe
+ 0002:000000b4       \177ntoskrnl_NULL_THUNK_DATA 004020b4     ntoskrnl:ntoskrnl.exe
+ 0002:000000b8       ___guard_check_icall_fptr  004020b8     BufferOverflowFastFailK:guard_support.obj
+ 0002:000000c0       _GUID_ECP_OPLOCK_KEY       004020c0     mspyLib.obj
+ 0002:000000d0       _GUID_ECP_PREFETCH_OPEN    004020d0     mspyLib.obj
+ 0002:000000e0       _GUID_ECP_NFS_OPEN         004020e0     mspyLib.obj
+ 0002:000000f0       _GUID_ECP_SRV_OPEN         004020f0     mspyLib.obj
+ 0002:00000138       __load_config_used         00402138     BufferOverflowFastFailK:loadcfg.obj
+ 0002:000001e0       ___safe_se_handler_table   004021e0     <linker-defined>
+ 0003:00000004       ___security_cookie         00403004     BufferOverflowFastFailK:gs_support.obj
+ 0003:00000008       ___security_cookie_complement 00403008     BufferOverflowFastFailK:gs_support.obj
+ 0003:0000000c       __NLG_Destination          0040300c     ntoskrnl:_nlgsupp.obj
+ 0003:00000020       _StatusToBreakOn           00403020     minispy.obj
+ 0003:00000040       _MiniSpyData               00403040     <common>
+ 0004:00000000       _SpyConnect@20             00404000 f   minispy.obj
+ 0004:00000012       _SpyDisconnect@4           00404012 f   minispy.obj
+ 0004:00000026       _SpyFilterUnload@4         00404026 f   minispy.obj
+ 0004:00000052       _SpyMessage@24             00404052 f   minispy.obj
+ 0004:00000142       _SpyQueryTeardown@8        00404142 f   minispy.obj
+ 0004:00000148       _SpyBuildEcpDataString@12  00404148 f   mspyLib.obj
+ 0004:00000420       _SpyParseEcps@12           00404420 f   mspyLib.obj
+ 0004:00000586       ??_C@_1BE@BEIFHMBJ@?$AA?$FL?$AA?$CF?$AAd?$AA?5?$AAE?$AAC?$AAP?$AAs?$AA?3?$AA?$AA@NNGAKEGL@ 00404586     mspyLib.obj
+ 0004:0000059a       ??_C@_1CI@EAGFGNMG@?$AA?$CF?$AAs?$AA?5?$AAO?$AAP?$AAL?$AAO?$AAC?$AAK?$AA?5?$AAK?$AAE?$AAY?$AA?3?$AA?5?$AA?$CF?$AAw?$AAZ?$AA?$DL?$AA?$AA@NNGAKEGL@ 0040459a     mspyLib.obj
+ 0004:000005c2       ??_C@_1CO@IBCLHBAL@?$AA?$CF?$AAs?$AA?5?$AAI?$AAN?$AAV?$AAA?$AAL?$AAI?$AAD?$AA?5?$AAO?$AAP?$AAL?$AAO?$AAC?$AAK?$AA?5?$AAK?$AAE?$AAY?$AA?$DL?$AA?$AA@NNGAKEGL@ 004045c2     mspyLib.obj
+ 0004:000005f0       ??_C@_1DA@EMBHPAKK@?$AA?$CF?$AAs?$AA?5?$AAN?$AAF?$AAS?$AA?5?$AAS?$AAH?$AAA?$AAR?$AAE?$AA?5?$AAN?$AAA?$AAM?$AAE?$AA?3?$AA?5?$AA?$CF?$AAw?$AAZ?$AA?0?$AA?$AA@NNGAKEGL@ 004045f0     mspyLib.obj
+ 0004:00000620       ??_C@_1DA@MICJNEMM@?$AA?$CF?$AAs?$AA?5?$AAN?$AAF?$AAS?$AA?5?$AAS?$AAO?$AAC?$AAK?$AAE?$AAT?$AA?5?$AAA?$AAD?$AAD?$AAR?$AA?3?$AA?5?$AA?$CF?$AAS?$AA?$DL?$AA?$AA@NNGAKEGL@ 00404620     mspyLib.obj
+ 0004:00000650       ??_C@_1DI@CIFPBNLA@?$AA?$CF?$AAs?$AA?5?$AAN?$AAF?$AAS?$AA?5?$AAI?$AAN?$AAV?$AAA?$AAL?$AAI?$AAD?$AA?5?$AAS?$AAO?$AAC?$AAK?$AAE?$AAT?$AA?5?$AAA?$AAD?$AAD?$AAR?$AA?$DL?$AA?$AA@NNGAKEGL@ 00404650     mspyLib.obj
+ 0004:00000688       ??_C@_1DA@OMKIHAGO@?$AA?$CF?$AAs?$AA?5?$AAS?$AAR?$AAV?$AA?5?$AAS?$AAH?$AAA?$AAR?$AAE?$AA?5?$AAN?$AAA?$AAM?$AAE?$AA?3?$AA?5?$AA?$CF?$AAw?$AAZ?$AA?0?$AA?$AA@NNGAKEGL@ 00404688     mspyLib.obj
+ 0004:000006b8       ??_C@_1DA@GIJGFEAI@?$AA?$CF?$AAs?$AA?5?$AAS?$AAR?$AAV?$AA?5?$AAS?$AAO?$AAC?$AAK?$AAE?$AAT?$AA?5?$AAA?$AAD?$AAD?$AAR?$AA?3?$AA?5?$AA?$CF?$AAS?$AA?$DL?$AA?$AA@NNGAKEGL@ 004046b8     mspyLib.obj
+ 0004:000006e8       ??_C@_1DI@MFBOIALJ@?$AA?$CF?$AAs?$AA?5?$AAS?$AAR?$AAV?$AA?5?$AAI?$AAN?$AAV?$AAA?$AAL?$AAI?$AAD?$AA?5?$AAS?$AAO?$AAC?$AAK?$AAE?$AAT?$AA?5?$AAA?$AAD?$AAD?$AAR?$AA?$DL?$AA?$AA@NNGAKEGL@ 004046e8     mspyLib.obj
+ 0004:00000720       ??_C@_13GAMECHAC@?$AAF?$AA?$AA@NNGAKEGL@ 00404720     mspyLib.obj
+ 0004:00000724       ??_C@_13IMODFHAA@?$AA?9?$AA?$AA@NNGAKEGL@ 00404724     mspyLib.obj
+ 0004:00000728       ??_C@_13PNBDBPLL@?$AAA?$AA?$AA@NNGAKEGL@ 00404728     mspyLib.obj
+ 0004:0000072c       ??_C@_13OPKGLAFF@?$AAB?$AA?$AA@NNGAKEGL@ 0040472c     mspyLib.obj
+ 0004:00000730       ??_C@_1CM@OOEAPBPF@?$AA?$CF?$AAs?$AA?5?$AAS?$AAR?$AAV?$AA?5?$AAF?$AAL?$AAA?$AAG?$AAS?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$DL?$AA?$AA@NNGAKEGL@ 00404730     mspyLib.obj
+ 0004:0000075c       ??_C@_1BK@LHDLIODC@?$AA?$CF?$AAs?$AA?5?$AAP?$AAR?$AAE?$AAF?$AAE?$AAT?$AAC?$AAH?$AA?$DL?$AA?$AA@NNGAKEGL@ 0040475c     mspyLib.obj
+ 0004:00000776       ??_C@_1CI@LNFBFLOO@?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAd?$AA?5?$AAu?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAE?$AAC?$AAP?$AAs?$AA?$FN?$AA?$AA@NNGAKEGL@ 00404776     mspyLib.obj
+ 0004:0000079e       ??_C@_17JPJKOELE@?$AA?$CF?$AAs?$AA?$FN?$AA?$AA@NNGAKEGL@ 0040479e     mspyLib.obj
+ 0005:00000000       _DriverEntry@8             00405000 f   minispy.obj
+ 0005:000001a2       _SpyReadDriverParameters@4 004051a2 f   mspyLib.obj
+ 0005:00000268       _GsDriverEntry@8           00405268 f   BufferOverflowFastFailK:gs_driverentry.obj
+ 0005:00000278       ___security_init_cookie    00405278 f   BufferOverflowFastFailK:gs_support.obj
+ 0005:00000296       ??_C@_0BJ@PEGHOHFM@FltSetTransactionContext?$AA@PBOPGDP@ 00405296     minispy.obj
+ 0005:000002b0       ??_C@_0BJ@BDBDOBN@FltGetTransactionContext?$AA@PBOPGDP@ 004052b0     minispy.obj
+ 0005:000002ca       ??_C@_0BH@NBIOBFIH@FltEnlistInTransaction?$AA@PBOPGDP@ 004052ca     minispy.obj
+ 0005:000002e2       ??_C@_1BK@DICPLIGM@?$AA?2?$AAM?$AAi?$AAn?$AAi?$AAS?$AAp?$AAy?$AAP?$AAo?$AAr?$AAt?$AA?$AA@PBOPGDP@ 004052e2     minispy.obj
+ 0005:000002fc       ??_C@_1BG@MHDFHEJC@?$AAM?$AAa?$AAx?$AAR?$AAe?$AAc?$AAo?$AAr?$AAd?$AAs?$AA?$AA@PBOPGDP@ 004052fc     mspyLib.obj
+ 0005:00000312       ??_C@_1CA@GONDOMMD@?$AAN?$AAa?$AAm?$AAe?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAM?$AAe?$AAt?$AAh?$AAo?$AAd?$AA?$AA@PBOPGDP@ 00405312     mspyLib.obj
+ 0005:00000334       __IMPORT_DESCRIPTOR_ntoskrnl 00405334     ntoskrnl:ntoskrnl.exe
+ 0005:00000348       __IMPORT_DESCRIPTOR_HAL    00405348     hal:HAL.dll
+ 0005:0000035c       __IMPORT_DESCRIPTOR_FLTMGR 0040535c     fltMgr:FLTMGR.SYS
+ 0005:00000370       __NULL_IMPORT_DESCRIPTOR   00405370     ntoskrnl:ntoskrnl.exe
+ 0006:00000000       _FilterRegistration        00406000     RegistrationData.obj
+ 0006:00000040       _Callbacks                 00406040     RegistrationData.obj
+ 0006:00000360       _Contexts                  00406360     RegistrationData.obj
+
+ entry point at        0005:00000268
+
+ Static symbols
+
+ 0000:ffff7000       .debug$S                   00400000     hal:HAL.dll
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     fltMgr:FLTMGR.SYS
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     hal:HAL.dll
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff7000       .debug$S                   00400000     ntoskrnl:ntoskrnl.exe
+ 0001:000009d4       $$000000                   004019d4     ntoskrnl:sehprolg4.obj
+ 0001:00000a30       _ValidateLocalCookies      00401a30 f   ntoskrnl:chandler4.obj
+ 0001:00000bc0       $$000000                   00401bc0     ntoskrnl:exsup4.obj
+ 0001:00000c50       __unwind_handler4          00401c50 f   ntoskrnl:exsup4.obj
+ 0001:00000d1c       $$000000                   00401d1c     ntoskrnl:_nlgsupp.obj
+ 0002:00000408       __sehtable$_DriverEntry@8  00402408     minispy.obj
+ 0002:00000428       __sehtable$_SpyMessage@24  00402428     minispy.obj
+ 0002:00000450       __sehtable$_SpyGetLog@12   00402450     mspyLib.obj
+ 0003:00000000       ?Sequence@?1??SpyEnlistInTransaction@@9@9 00403000     minispy.obj
+ 0005:0000060c       .idata$6                   0040560c     ntoskrnl:ntoskrnl.exe
+ 0005:0000064e       .idata$6                   0040564e     hal:HAL.dll
+ 0005:00000844       .idata$6                   00405844     fltMgr:FLTMGR.SYS
+ 0007:000000b0       $R000000                   004070b0     minispy.res
+ 0007:000000e8       $R000038                   004070e8     minispy.res
