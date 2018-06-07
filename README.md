@@ -1,0 +1,1 @@
+minispy add write content
